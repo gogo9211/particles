@@ -159,7 +159,7 @@
                         const pos0 = getRandomPosition(); const pos1 = getRandomPosition();
 
                         particles[0][i] = pos0[0]; particles[1][i] = pos0[1];
-                        particles[0][j] = pos1[0]; particles[1][j] = pos1[0];
+                        particles[0][j] = pos1[0]; particles[1][j] = pos1[1];
                     }
                 }
             }
